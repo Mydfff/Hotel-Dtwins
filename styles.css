@@ -1,0 +1,37 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    
+}
+h1{
+    text-shadow: #000;
+    
+}
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.top-products .card {
+    border: none;
+    transition: transform 0.2s ease;
+}
+
+.top-products .card:hover {
+    transform: translateY(-5px);
+}
+
+.discount {
+    background-image: url('path/to/discount-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+/* Customize the Explore More Tabs */
+.explore-more .nav-tabs .nav-link.active {
+    color: #fed221;
+    background-color: #fed221;
+    color: #000;
+}
